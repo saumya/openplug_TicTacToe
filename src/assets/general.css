@@ -1,0 +1,17 @@
+/* CSS file */
+
+.myFontStyle { 
+	fontSize: 15;
+	color: #9933FF;
+}
+
+Button {
+	fontStyle: italic;
+	fontSize: 25;
+	color: #9933FF;
+	cornerRadius: 20;
+	fillColors:"[ 0xFF0000, 0x0000FF ]";
+	upSkin: Embed(source="assets/round.png");
+	overSkin: Embed(source="assets/cross.png");
+	downSkin: Embed(source="assets/round.png");
+}

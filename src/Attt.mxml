@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:mob="openplug.elips.controls.*" layout="absolute">
-	<!--Text -->
-	<mob:Text width="50%" x="{width/4}" y="{height/3}" text="With OpenPlug Studio, say Hello to the Mobile World!" textAlign="center"/> 
+<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" 
+						xmlns:mob="openplug.elips.controls.*" 
+						layout="absolute" 
+						creationComplete="onCreation(event)">
+	<mx:Style source="assets/general.css"/>
+	<mx:Script>
+		<![CDATA[
+			import com.saumya.controller.ApplicationController;
+			
+			import mx.events.FlexEvent;
+			
+			[Embed(source="assets/round.png")]
+			[Bindable]
+			public var ImgRound:Class;
+			
+			[Embed(source="assets/cross.png")]
+			[Bindable]
+			public var ImgCross:Class;
+			
+			[Embed(source="assets/blank.png")]
+			[Bindable]
+			public var ImgBlank:Class;
+			
+			protected function onCreation(event:FlexEvent):void
+			{
+				var ac:ApplicationController=new ApplicationController(this);
+			}
+			
+		]]>
+	</mx:Script>
+	
+	<mx:Canvas id="gameBg" 
+			   width="100%" height="100%" 
+			   clipContent="false" 
+			   backgroundColor="#000000" >
+		
+		<mob:Image id="btn_11" source="{ImgBlank}" />
+		<mob:Image id="btn_12" source="{ImgBlank}" />
+		<mob:Image id="btn_13" source="{ImgBlank}" />
+		
+	</mx:Canvas>
+	
 </mx:WindowedApplication>
