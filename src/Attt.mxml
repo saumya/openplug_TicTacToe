@@ -39,6 +39,14 @@
 		<mob:Image id="btn_12" source="{ImgBlank}" />
 		<mob:Image id="btn_13" source="{ImgBlank}" />
 		
+		<mob:Image id="btn_21" source="{ImgBlank}" />
+		<mob:Image id="btn_22" source="{ImgBlank}" />
+		<mob:Image id="btn_23" source="{ImgBlank}" />
+		
+		<mob:Image id="btn_31" source="{ImgBlank}" />
+		<mob:Image id="btn_32" source="{ImgBlank}" />
+		<mob:Image id="btn_33" source="{ImgBlank}" />
+		
 	</mx:Canvas>
 	
 </mx:WindowedApplication>

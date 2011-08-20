@@ -11,3 +11,9 @@ bin-release/
 #openplug
 rsc-debug/
 resources/
+extensions/
+locales/
+output/
+resources/
+rsc-debug/
+extensionsoutput.swf
