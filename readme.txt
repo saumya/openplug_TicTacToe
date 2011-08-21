@@ -1,1 +1,1 @@
-This is the first experiment of game development for devices using "http://www.openplug.com"OpenPlug|Studio.
+This is the first experiment of game development for devices using http://www.openplug.com OpenPlug|Studio.
