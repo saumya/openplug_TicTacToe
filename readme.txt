@@ -1,0 +1,1 @@
+This is the first experiment of game development for devices using <a href="http://www.openplug.com/">OpenPlug|Studio</a>.
